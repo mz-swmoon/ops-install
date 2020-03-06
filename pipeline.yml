@@ -15,7 +15,10 @@ resources:
   type: git
   source:
     uri: ((pipeline-repo))
-    private_key: ((plat-auto-pipes-deploy-key.private_key))
+    private_key: |
+            ----BEGIN RSA PRIVATE KEY----
+            ((plat-auto-pipes-deploy-key.private_key))
+            ----END RSA PRIVATE KEY----
     branch: master
 
 
@@ -41,8 +44,8 @@ jobs:
       params:
         CREDHUB_CLIENT: ((credhub-client))
         CREDHUB_SECRET: ((credhub-secret))
-        CREDHUB_SERVER: https://your-credhub.example.com
-        PREFIX: /concourse/your-team-name/foundation
+        CREDHUB_SERVER: https://100.0.1.10:8844
+        PREFIX: /concourse/main/foundation
       input_mapping:
         files: config
       output_mapping:

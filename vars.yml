@@ -1,5 +1,6 @@
 platform-automation-bucket: concourse-pivotal
-credhub-server: https://100.0.1.10:8844
+credhub-server: https://100.0.1.10
 opsman-url: https://pcf.cc.martin-bw-piv.net
 pipeline-repo: git@github.com:swmoon@mz.co.kr/ops-install
-
+credhub-client: credhub-admin 
+credhub-secret: 6nthifph6utgwd46t9cp
