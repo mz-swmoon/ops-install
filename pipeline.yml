@@ -15,10 +15,7 @@ resources:
   type: git
   source:
     uri: ((pipeline-repo))
-    private_key: |
-            ----BEGIN RSA PRIVATE KEY----
-            ((plat-auto-pipes-deploy-key.private_key))
-            ----END RSA PRIVATE KEY----
+    private_key: ((plat-auto-pipes-deploy-key.private_key))
     branch: master
 
 
