@@ -4,3 +4,4 @@ opsman-url: https://pcf.cc.martin-bw-piv.net
 pipeline-repo: git@github.com:swmoon@mz.co.kr/ops-install
 credhub-client: credhub-admin 
 credhub-secret: 6nthifph6utgwd46t9cp
+credhud-cacert: /home/ubuntu/workspace/yml/ops-install/cacert.crt 
