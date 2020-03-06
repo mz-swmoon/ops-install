@@ -15,7 +15,9 @@ resources:
   type: git
   source:
     uri: ((pipeline-repo))
-    private_key: ((plat-auto-pipes-deploy-key.private_key))
+    username: swmoon@mz.co.kr
+    password: Tkfkd2020!
+    #    private_key: ((plat-auto-pipes-deploy-key.private_key))
     branch: master
 
 
