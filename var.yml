@@ -1,3 +1,0 @@
-platform-automation-bucket: concourse-pivotal
-credhub-server: https://your-credhub.example.com
-opsman-url: https://pcf.foundation.example.com
