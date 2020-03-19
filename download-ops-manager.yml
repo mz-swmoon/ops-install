@@ -1,5 +1,5 @@
 ---
-pivnet-api-token: ((pivnet_token))
+pivnet-api-token: s2bSF24gzxTRbJy9GCHH
 pivnet-file-glob: "ops-manager-aws*.yml"
 pivnet-product-slug: ops-manager
 product-version-regex: ^2\.5\.\d+$
